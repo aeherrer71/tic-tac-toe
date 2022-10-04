@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+
+.grid {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square{
+  border: solid;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
