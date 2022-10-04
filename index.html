@@ -1,35 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js" defer></script>
-  <link href="style.css" rel="stylesheet" />
-
-  <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
-  <div class="container">
-    <h1>Tic-Tac-Toe</h1>
-    <h3>Player Turn: </h3>
-    <div class="grid">
-      <div class="square b0"></div>
-      <div class="square b1"></div>
-      <div class="square b2"></div>
-      <div class="square b3"></div>
-      <div class="square b4"></div>
-      <div class="square b5"></div>
-      <div class="square b6"></div>
-      <div class="square b7"></div>
-      <div class="square b8"></div>
-    </div>
-    <button class="reset">Reset</button>
-  </div>
+    <section>
+        <h1 class="game--title">Tic Tac Toe</h1>
+        <div class="game--container">
+            <div data-index="0" class="cell"></div>
+            <div data-index="1" class="cell"></div>
+            <div data-index="2" class="cell"></div>
+            <div data-index="3" class="cell"></div>
+            <div data-index="4" class="cell"></div>
+            <div data-index="5" class="cell"></div>
+            <div data-index="6" class="cell"></div>
+            <div data-index="7" class="cell"></div>
+            <div data-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
 
 </body>
-
 </html>
